@@ -30,7 +30,7 @@ $(function() {
 
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "contact.php";
+            var url = "https://sksapp.000webhostapp.com/contact.php";
 
             $.ajax({
                 type: "POST",
