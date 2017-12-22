@@ -30,12 +30,14 @@ $(function() {
 
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "https://sksapp.000webhostapp.com/contact.php";
+					  //var url = "contact.php";
+            var url = "https://formspree.io/svenstinn@yahoo.com";
 
             $.ajax({
                 type: "POST",
                 url: url,
                 data: $(this).serialize(),
+								dataType: "json",
                 success: function(data)
                 {
                 	$('#contact-form').html('<p style="text-align:center;">Contact form submitted successfully.</p>');
