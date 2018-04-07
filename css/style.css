@@ -9,6 +9,10 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+p {
+	font-size: 16px;
+}
+
 @media (min-width: 768px) {
 	.navbar-right {
 		/*padding-right:15px;*/
@@ -183,14 +187,11 @@ i.animated {
 #services.page {
 	padding-bottom:0px;
 }
-.text-left {
-	text-align:left;
-}
 #contact p {
 	margin-bottom:40px;
 }
 footer {
-	padding:50px 0 200px 0;
+	padding:50px 0 300px 0;
 	text-align:center;
 
 }
@@ -480,7 +481,7 @@ a.navbar-brand {
 }
 
 .second_footer {
-	height:15px;
+	height:10px;
 	width:100%;
 	background-color:#223D5E;
 	box-shadow: 0px 0px 5px 0px rgba(28,36,43,.2);
@@ -506,6 +507,10 @@ a.navbar-brand {
 	font-size:70px;
 	line-height: 1;
 	font-weight:600;
+}
+
+p.text-left {
+	text-indent: 30px;
 }
 
 @media screen and (max-width: 768px) {

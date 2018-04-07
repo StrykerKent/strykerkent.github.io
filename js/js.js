@@ -56,3 +56,17 @@ $(function() {
         }
     })
 });
+
+$(function() {
+	// JavaScript
+	window.sr = ScrollReveal();
+	sr.reveal('.portfolio_img.web',{duration:1e3,delay:200},300);
+	sr.reveal('.portfolio_img.marketing',{duration:1e3,delay:200},300);
+	sr.reveal('.portfolio_img.design',{duration:1e3,delay:200},300);
+	sr.reveal('.portfolio_img.reports',{duration:1e3,delay:200},300);
+	sr.reveal('.icon',{duration:600,scale:.3,distance:"0px"},300);
+	sr.reveal('.icon2',{duration:600,scale:.3,distance:"0px"},300);
+	sr.reveal('.icon3',{duration:600,scale:.3,distance:"0px"},300);
+	sr.reveal('.sr_about',{duration:600,scale:.3,distance:"0px"},500);
+	sr.reveal('.sr_hire',{duration:600,scale:.3,distance:"0px"},300);
+});
