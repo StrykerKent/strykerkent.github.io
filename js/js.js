@@ -24,30 +24,27 @@ $(function() { //document.ready shorthand
 	//validate contact form and submit through ajax
 });
 
-//they removed ability to send via ajax due to spammers
-// $(function() {
+$(function() {
+	$('#contact-form').validate();
+	//they removed ability to send via ajax due to spammers
+    // $('#contact-form').on('submit', function (e) {
+    //     if (!e.isDefaultPrevented()) {
+    //         var url = "https://formspree.io/svenstinn@yahoo.com";
 
-//     $('#contact-form').validate();
-
-//     $('#contact-form').on('submit', function (e) {
-//         if (!e.isDefaultPrevented()) {
-// 					  //var url = "contact.php";
-//             var url = "https://formspree.io/svenstinn@yahoo.com";
-
-//             $.ajax({
-//                 type: "POST",
-//                 url: url,
-//                 data: $(this).serialize(),
-// 								dataType: "json",
-//                 success: function(data)
-//                 {
-//                 	$('#contact-form').html('<p style="text-align:center;">Contact form submitted successfully.</p>');
-//                 }
-//             });
-//             return false;
-//         }
-//     })
-// });
+    //         $.ajax({
+    //             type: "POST",
+    //             url: url,
+    //             data: $(this).serialize(),
+	// 							dataType: "json",
+    //             success: function(data)
+    //             {
+    //             	$('#contact-form').html('<p style="text-align:center;">Contact form submitted successfully.</p>');
+    //             }
+    //         });
+    //         return false;
+    //     }
+    // })
+});
 
 $(function() {
 	// JavaScript
