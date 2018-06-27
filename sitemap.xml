@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+            
+<url>
+  <loc>http://www.stryk3r.com/</loc>
+  <lastmod>2018-06-10T04:26:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.stryk3r.com/.</loc>
+  <lastmod>2018-06-10T04:26:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.stryk3r.com/posts/2018-01-05-weld-shop-production-tracking-web-application/</loc>
+  <lastmod>2018-06-10T04:26:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.stryk3r.com/posts/2017-08-25-purchase-order-web-application/</loc>
+  <lastmod>2018-06-10T04:26:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.stryk3r.com/posts/2017-08-25-equipment-transfer-web-application/</loc>
+  <lastmod>2018-06-10T04:26:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.stryk3r.com/posts/2013-01-20-bid-log-web-application-brock/</loc>
+  <lastmod>2018-06-10T04:26:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.stryk3r.com/posts/2015-11-15-bid-log-web-application-gulf-coast-fabricators/</loc>
+  <lastmod>2018-06-10T04:26:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.stryk3r.com/posts/2017-10-15-admiral-field-services-website/</loc>
+  <lastmod>2018-06-10T04:26:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.stryk3r.com/posts/2017-02-10-echo-group-website/</loc>
+  <lastmod>2018-06-10T04:26:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.stryk3r.com/posts/2016-02-10-weld-test-coupons-website/</loc>
+  <lastmod>2018-06-10T04:26:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.stryk3r.com/posts/2017-10-15-gulf_coast_exchanger-website/</loc>
+  <lastmod>2018-06-10T04:26:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.stryk3r.com/posts/2015-08-25-brock-intranet-website/</loc>
+  <lastmod>2018-06-10T04:26:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.stryk3r.com/posts/2015-01-28-united-scaffolding-website/</loc>
+  <lastmod>2018-06-10T04:26:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
