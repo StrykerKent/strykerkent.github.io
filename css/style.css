@@ -83,9 +83,20 @@ i.animated {
 	background-size: cover;
 	vertical-align: middle;
 }
-@keyframes spin_s {
-	from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+@keyframes shake_s {
+	/* from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);} */
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 @keyframes show_s {
 	0%  	{ opacity: 0; }
@@ -101,7 +112,8 @@ i.animated {
 	padding: 30px 30px 0 0;
 	opacity:0;
 	animation: show_s 4s ease 0s normal forwards 1,
-				spin_s 0.3s linear 5s 1;
+				shake_s 0.3s linear 6s 1,
+				shake_s 0.3s linear 12s 1;
 	/* animation: spin_s 1s linear 0.5s 1; */
 	/*animation: spin_s 2s cubic-bezier(.91,.03,.07,.99) 2s 1;*/
 }
@@ -418,6 +430,10 @@ a.navbar-brand {
 	background:url(../images/equipment_transfer1.png) no-repeat;
 	background-size: cover;
 }
+.crossreference {
+	background:url(../images/track_xref_employee_match.png) no-repeat;
+	background-size: cover;
+}
 .navbar-inverse{
 	/*box-shadow: 0px 0px 15px #5b5b5b;*/
 }
@@ -538,6 +554,19 @@ a.navbar-brand {
 	background-color:#223D5E;
 }
 
+.nav_down_arrow {
+	margin-left: 3px;
+}
+
+.get_in_touch {
+	background:transparent;
+	color:#fff;
+}
+
+.get_in_touch:hover {
+	background:#fff;
+}
+
 @media screen and (max-width: 768px) {
 	.navbar-inverse.navbar_trans {
 		background: rgba(34, 61, 94,1);
@@ -564,7 +593,6 @@ a.navbar-brand {
 		/*background-color: #222;*/
 		background: rgb(1, 25, 53);
 	}
-
 	.navbar-inverse.shrink  {
 		color: #fff;
 		/*background: #000;*/
@@ -604,6 +632,16 @@ a.navbar-brand {
 		font-size:18px;
 		padding: 30px 30px;
 		/*text-shadow: 2px 2px 1px #000;*/
+	}
+	.shrink .nav > .btn {
+		font-size:14px;
+		padding: 5px 10px;
+		margin:9px 0 9px 30px;
+	}
+	.nav > .btn {
+		font-size:18px;
+		padding: 10px 25px;
+		margin:16px 0 16px 50px;
 	}
 }
 

@@ -512,6 +512,48 @@ p.text-left {
 	text-indent: 30px;
 }
 
+.nav_down_arrow {
+	margin-left: 3px;
+}
+
+.get_in_touch {
+	background:transparent;
+	color:#fff;
+}
+
+.get_in_touch:hover {
+	background:#fff;
+}
+
+.h4bold h4, .h3bold h3, .bold {
+	font-weight: bold;
+}
+
+.featurette_text {
+	/* text-indent: 30px; */
+	margin-top:10em;
+}
+
+.featurette_text2 {
+	margin-top:4em;
+}
+
+.featurette_text3 {
+	margin-top:3em;
+}
+
+.portfolio_info_box {
+	padding:2em 2em;
+	background: #f5f5f5;
+	border: 1px solid #ededed;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+	border-radius: .5rem;
+}
+
+.word_break {
+	word-break: break-all;
+}
+/************ xs **********************/
 @media screen and (max-width: 768px) {
 	.navbar-inverse.navbar_trans {
 		background: rgba(34, 61, 94,1);
@@ -523,15 +565,19 @@ p.text-left {
 		display:inline;
 	}
 	.position_down_arrow {
-		left:0%;
-		top:86%;
-		text-align:center;
+		left: 0%;
+		top: 86%;
+		text-align: center;
 	}
 	.btn_li {
 		margin: 0px 0px 50px 0px;
 	}
+	.featurette_text {
+		margin-top: 0em;
+		margin-bottom: 3em;
+	}
 }
-
+/******** sm **************/
 @media screen and (min-width: 769px) {
 	/******* shrink *******/
 	.navbar-inverse.shrink .navbar-nav > .active > a, .navbar-inverse.shrink .navbar-nav > .active > a:focus, .navbar-inverse.shrink .navbar-nav > .active > a:hover {
@@ -579,6 +625,16 @@ p.text-left {
 		padding: 30px 30px;
 		/*text-shadow: 2px 2px 1px #000;*/
 	}
+	.shrink .nav > .btn {
+		font-size:14px;
+		padding: 5px 10px;
+		margin: 9px 0 9px 30px;
+	}
+	.nav > .btn {
+		font-size:18px;
+		padding: 10px 25px;
+		margin: 16px 0 16px 50px;
+	}
 }
 
 .shrink .navbar-collapse {
@@ -588,5 +644,29 @@ p.text-left {
 @media screen and (max-width: 321px) {
 	.brand_text .iphone5s {
 		display:none;
+	}
+}
+/* small only */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+	.featurette_text {
+		margin-top: 3em;
+	}
+	.featurette_text2 {
+		margin-top: 0em;
+	}
+	.featurette_text3{
+		margin-top: 0em;
+	}
+}
+/* Medium Only */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+	.featurette_text {
+		margin-top: 5.5em;
+	}
+	.featurette_text2 {
+		margin-top: 1.5em;
+	}
+	.featurette_text3{
+		margin-top: 0em;
 	}
 }
