@@ -207,6 +207,9 @@ i.animated {
 #services.page {
 	padding-bottom:0px;
 }
+#services .serv_color {
+	color: #223d5e;
+}
 #contact p {
 	margin-bottom:40px;
 }
@@ -371,6 +374,7 @@ a.navbar-brand {
 	height:100%;
 	width:100%;
 	border: 1px solid #BCBCBC;
+	border-radius: 6px;
 	/*box-shadow: 0px 0px 5px #000;*/
 	box-shadow: 0 0 10px rgba(28,36,43,.2);
 }
@@ -493,12 +497,10 @@ a.navbar-brand {
 }
 
 .modal-body img {
-	margin: 0 auto;
-	margin-bottom: 40px;
 	border: 1px solid #A0A0A0;
 	box-shadow: 0 0 10px rgba(28,36,43,.2);
-	height:55vh;
-
+	margin: 0 auto;
+	max-height:1200px;
 }
 
 .modal-body p, .modal-body h2, .modal-body h3 {
@@ -558,15 +560,31 @@ a.navbar-brand {
 	margin-left: 3px;
 }
 
-.get_in_touch {
+.navbar-nav>li>a.get_in_touch {
 	background:transparent;
 	color:#fff;
+	border-color:#fff;
 }
 
-.get_in_touch:hover {
+.navbar-nav>li>a.get_in_touch:hover, .navbar-nav>li>a.get_in_touch:focus {
 	background:#fff;
+	color:#333;
+	border-color:#fff;
+}
+.undo_link {
+	color:#333;
+	text-decoration: none;
 }
 
+footer li, footer h5 {
+	text-align:left;
+}
+footer h5 {
+	font-size:16px;
+	font-weight:600;
+	margin-top:0px;
+}
+/************ xs **********************/
 @media screen and (max-width: 768px) {
 	.navbar-inverse.navbar_trans {
 		background: rgba(34, 61, 94,1);
@@ -585,8 +603,30 @@ a.navbar-brand {
 	.btn_li {
 		margin: 0px 0px 50px 0px;
 	}
+	/* .btn.get_in_touch {
+		margin-left:20px;
+	} */
+	.navbar-nav > li > a.btn {
+		padding: 10px 20px;
+		margin:10px auto 20px auto;
+		width:88%;
+	}
+	.navbar-fixed-top .navbar-collapse {
+		max-height:420px;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+		color: #fff;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+		color: #333;
+		/* background-color:rgba(255,255,255, 0.8); */
+		background-color: #f5f5f5;
+	}
+	.LI-profile-badge {
+		margin-bottom:70px;
+	}
 }
-
+/******** sm **************/
 @media screen and (min-width: 769px) {
 	/******* shrink *******/
 	.navbar-inverse.shrink .navbar-nav > .active > a, .navbar-inverse.shrink .navbar-nav > .active > a:focus, .navbar-inverse.shrink .navbar-nav > .active > a:hover {
@@ -597,7 +637,7 @@ a.navbar-brand {
 		color: #fff;
 		/*background: #000;*/
 		background:rgba(34, 61, 94,1);
-		box-shadow: 0 0 10px rgba(28,36,43,.2);
+		box-shadow: 0 0 10px rgba(28, 36, 43, 0.2);
 	}
 	.shrink a.navbar-brand {
 		max-height: 50px;
@@ -624,24 +664,34 @@ a.navbar-brand {
 		animation: none;
 	}
 	.shrink .nav > li > a {
-		font-size:14px;
+		font-size: 14px;
 		padding: 15px 15px;
 		text-shadow: none;
 	}
 	.nav > li > a {
-		font-size:18px;
+		font-size: 18px;
 		padding: 30px 30px;
 		/*text-shadow: 2px 2px 1px #000;*/
 	}
-	.shrink .nav > .btn {
-		font-size:14px;
+	.nav > li > a.btn {
+		padding: 10px 20px;
+		margin:20px 0 0 15px;
+	}
+	.shrink .nav .btn {
+		font-size: 14px;
 		padding: 5px 10px;
-		margin:9px 0 9px 30px;
+		/* margin: 9px 0 9px 30px; */
+		margin: 9px 0 9px 15px;
 	}
 	.nav > .btn {
 		font-size:18px;
 		padding: 10px 25px;
 		margin:16px 0 16px 50px;
+	}
+	.navbar-inverse.shrink .navbar-nav > .active > a.get_in_touch {
+		background: #E3E3E3;
+		color:#333;
+		border-color:#E3E3E3;
 	}
 }
 

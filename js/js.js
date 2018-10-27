@@ -21,7 +21,10 @@ $(function() { //document.ready shorthand
 	        $(this).collapse('hide');
 	    }
 	});
-	//validate contact form and submit through ajax
+	//send image src & alt to modal... dynamically load image & alt text in modal
+	$("img").click(function () {
+		$("#modalImage").attr({"src": $(this).attr("src"), "alt": $(this).attr("alt")});
+	});
 });
 
 $(function() {

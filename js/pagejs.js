@@ -13,8 +13,8 @@ $(function() { //document.ready shorthand
 	        $(this).collapse('hide');
 	    }
 	});
-	//send image src to modal... dynamically load image in modal
-    $("img").click(function() {
-      $("#modalImage").attr("src", $(this).attr("src"));
-    });
+	//send image src & alt to modal... dynamically load image & alt text in modal
+	$("img").click(function () {
+		$("#modalImage").attr({"src": $(this).attr("src"), "alt": $(this).attr("alt")});
+	});
 });
