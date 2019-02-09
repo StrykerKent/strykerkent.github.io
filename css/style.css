@@ -193,6 +193,11 @@ i.animated {
 .btn-trans:hover {
 	background:#fff;
 }
+.learn_more {
+	font-weight:600;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
 .page {
 	min-height:400px;
 	padding:80px 0 120px 0;
@@ -209,6 +214,20 @@ i.animated {
 }
 #services .serv_color {
 	color: #223d5e;
+}
+#services h2 {
+	margin-top: 34px;
+	margin-bottom: 24px;
+}
+#services p {
+	margin-bottom: 24px;
+}
+#services .col-md-4 {
+	transition: ease 0.5s;
+}
+#services .col-md-4:hover {
+	transition: ease 0.5s;
+	transform: translateY(-20px);
 }
 #contact p {
 	margin-bottom:40px;
@@ -571,7 +590,7 @@ a.navbar-brand {
 	color:#333;
 	border-color:#fff;
 }
-.undo_link {
+a.undo_link {
 	color:#333;
 	text-decoration: none;
 }
