@@ -4,32 +4,18 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta name="description" content="Bid Log Web Application built by Stryker Stinnette using ASP.NET, C#, Razor, Microsoft SQL Server, JQuery, HTML, and CCS. My Name is Stryker Stinnette and I am a Programmer Analyst, Web Application Developer, Data Analyst, and Business Analyst. Full Stack Developer for LAMP, ASP.NET MVC, and WordPress.">
-    <meta property="og:title" content="Stryker Stinnette's Web Developer Portfolio Site | Bid Log Application (Brock)"/>
-    <meta property="og:image" content="http://www.stryk3r.com/images/stryk3r.com.png" />
-    <meta property="og:description" content="My Name is Stryker Stinnette and I am a Programmer Analyst, Web Application Developer, Data Analyst, and Business Analyst. Full Stack Developer for WAMP, ASP.NET MVC, and WordPress."/>
-    <meta property="og:url" content="http://www.stryk3r.com" />
-		<script type="application/ld+json">
-            {
-                "@context" : "http://schema.org",
-                "@type" : "SoftwareApplication",
-                "name" : "Bid Log Application (Brock)",
-                "author" : {
-					"@type" : "Person",
-					"name" : "Stryker Stinnette",
-					"location" : "Beaumont, Texas",
-				}
-            }
-        </script>
-		<!--<link rel="icon" href="gcf_fav_ico_ss_draw5.png">-->
+		<meta name="title" content="Stryker Stinnette | Bid Log Web Application (Brock)">
+		<meta name="description" content="Bid Log Web Application built by Stryker Stinnette using ASP.NET, C#, Razor, Microsoft SQL Server, JQuery, HTML, and CCS.">
+		<meta property="og:site_name" content="stryk3r.com">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://www.stryk3r.com" />
+		<meta property="og:title" content="Stryker Stinnette | Bid Log Web Application (Brock)"/>
+		<meta property="og:description" content="Bid Log Web Application built by Stryker Stinnette using ASP.NET, C#, Razor, Microsoft SQL Server, JQuery, HTML, and CCS."/>
+		<meta property="og:image" content="https://www.stryk3r.com/images/stryk3r.com.png" />
 		<link rel="icon" href="/favicon.ico">
-		<title>Stryker Stinnette | Web Developer Portfolio | Bid Log Application (Brock)</title>
-		<!-- Bootstrap -->
+		<title>Stryker Stinnette | Bid Log Web Application (Brock)</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<!-- Font Awesome-->
 		<script src="https://use.fontawesome.com/ae349fe363.js"></script>
-		<!-- Custom styles for this template -->
 		<link href="/css/pagestyle.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -39,15 +25,18 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		  ga('create', 'UA-82188109-1', 'auto');
-		  ga('send', 'pageview');
+			if(window.location.href.indexOf("localhost") === -1) {
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+				ga('create', 'UA-82188109-1', 'auto');
+				ga('send', 'pageview');
+				alert("okkkk");
+			}
 		</script>
 	</head>
-	<body id="">
+	<body>
 		<nav class="navbar navbar-inverse navbar-fixed-top navbar_trans shrink">
 			<div class="co1ntainer">
 				<div class="navbar-header">
@@ -70,41 +59,121 @@
 					<li class="dropdown"><a href="#"  class="dropdown-toggle" data-toggle="dropdown">Portfolio  <i class="fa fa-angle-down nav_down_arrow" aria-hidden="true"></i></a>
 						
 						<ul class="dropdown-menu">
-							
 							<li class="dropdown-header">Web Applications</li>
-								
-								
-								<li  class="active" ><a href="/posts/2013-01-20-bid-log-web-application-brock/" class="page-scroll">Bid Log App Brock</a></li>
-								
-								<li ><a href="/posts/2015-11-15-bid-log-web-application-gulf-coast-fabricators/" class="page-scroll">Bid Log App GCF</a></li>
-								
-								<li ><a href="/posts/2018-02-10-echo-group-employee-cross-reference/" class="page-scroll">Contract & X-Reference Employee App</a></li>
-								
-								<li ><a href="/posts/2017-08-25-equipment-transfer-web-application/" class="page-scroll">Equipment Transfer App</a></li>
-								
-								<li ><a href="/posts/2018-01-05-weld-shop-production-tracking-web-application/" class="page-scroll">Production Tracking App</a></li>
-								
-								<li ><a href="/posts/2017-08-25-purchase-order-web-application/" class="page-scroll">Purchase Order App</a></li>
-								
-								<li role="separator" class="divider"></li>
 							
+								
+							
+								
+							
+								
+							
+								
+								<li  class="active" ><a href="/portfolio/bid-log-web-application-brock/" class="page-scroll">Bid Log App Brock</a></li>
+								
+							
+								
+								<li ><a href="/portfolio/bid-log-web-application-gulf-coast-fabricators/" class="page-scroll">Bid Log App GCF</a></li>
+								
+							
+								
+							
+								
+							
+								
+								<li ><a href="/portfolio/echo-group-employee-cross-reference/" class="page-scroll">Contract & Employee X-Reference App</a></li>
+								
+							
+								
+							
+								
+								<li ><a href="/portfolio/equipment-transfer-web-application/" class="page-scroll">Equipment Transfer App</a></li>
+								
+							
+								
+							
+								
+							
+								
+								<li ><a href="/portfolio/purchase-order-web-application/" class="page-scroll">Purchase Order App</a></li>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+								<li ><a href="/portfolio/weld-shop-production-tracking-web-application/" class="page-scroll">Production Tracking App</a></li>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+							<li role="separator" class="divider"></li>
 							<li class="dropdown-header">Websites</li>
-								
-								
-								<li ><a href="/posts/2017-10-15-admiral-field-services-website/" class="page-scroll">Admiral Field Services</a></li>
-								
-								<li ><a href="/posts/2015-08-25-brock-intranet-website/" class="page-scroll">Brock Group Intranet</a></li>
-								
-								<li ><a href="/posts/2017-02-10-echo-group-website/" class="page-scroll">Echo Group</a></li>
-								
-								<li ><a href="/posts/2017-10-15-gulf_coast_exchanger-website/" class="page-scroll">Gulf Coast Exchanger</a></li>
-								
-								<li ><a href="/posts/2015-01-28-united-scaffolding-website/" class="page-scroll">United Scaffolding</a></li>
-								
-								<li ><a href="/posts/2016-02-10-weld-test-coupons-website/" class="page-scroll">Weld Test Coupons</a></li>
-								
-								<li role="separator" class="divider"></li>
 							
+								
+							
+								
+							
+								
+								<li ><a href="/portfolio/admiral-field-services-website/" class="page-scroll">Admiral Field Services</a></li>
+								
+							
+								
+							
+								
+							
+								
+								<li ><a href="/portfolio/brock-intranet-website/" class="page-scroll">Brock Group Intranet</a></li>
+								
+							
+								
+							
+								
+							
+								
+								<li ><a href="/portfolio/echo-group-website/" class="page-scroll">Echo Group</a></li>
+								
+							
+								
+							
+								
+								<li ><a href="/portfolio/gulf-coast-exchanger-website/" class="page-scroll">Gulf Coast Exchanger</a></li>
+								
+							
+								
+							
+								
+							
+								
+							
+								
+								<li ><a href="/portfolio/united-scaffolding-website/" class="page-scroll">United Scaffolding</a></li>
+								
+							
+								
+							
+								
+							
+								
+								<li ><a href="/portfolio/weld-test-coupons-website/" class="page-scroll">Weld Test Coupons</a></li>
+								
+							
+								
+							
+								
+							
+								
+							
+							<li role="separator" class="divider"></li>
+								
 							<!-- <li><a href="/#portfolio" class="page-scroll">Web Applications</a></li>
 							<li><a href="/#websites" class="page-scroll">Websites</a></li>
 							<li><a href="/#webdesign" class="page-scroll">Web Design / Graphic Design</a></li>
@@ -120,20 +189,21 @@
 			</div><!--/.nav-collapse -->
 			</div>
 		</nav>
-      	<div class="portfolio_page">
+      	<div class="portfolio_page inner-wide">
     <div class="container-fluid">
       <a href="#" data-toggle="modal" data-target="#myModal">
-        <img src="/images/brock_bid_log_view.png" class="img-responsive" alt="Bid Log Application (Brock)" />
+        <img src="/images/brock_bid_log_view.png" class="img-responsive" alt="Bid Log Web Application (Brock)" />
         </a>
     </div>
     <div class="container">
-      <h2>Bid Log Application (Brock)</h2>
+      <h1>Bid Log Web Application (Brock)</h1>
       <br />
       <p>The client wanted an internal Purchase Order System to keep track of what the company was buying. I worked with the Plant Manager and the Accounts Receivable person to create a custom Purchase Order System
-        that fit thier business. This site was developed using ASP.NET, C#, JQuery, HTML, and CSS.
+        that fit their business. This site was developed using ASP.NET, C#, JQuery, HTML, and CSS.
       </p>
       <p>This Bid Log Web Application was built for and used by all Brock Companies (Brock in all 5 regions, Brock's Union side, Brock Canada, and Brock Latin America). There were over 130 unique estimators who used it at a given time. This Web Application also had reporting built into the website for each company to pull whenever they wanted. Each company used the Bid Log to see what was work was coming down the line, internal communication, and budget forecasting. Upper Management used the Bid Log reports for forecasting future revenues, reporting to the bank / owners / board, and to manage the business.</p>
       <p class="indent">The Bid Log Web Application emailed estimators a copy of the bid they entered or updated. This Web Application was build on the ASP.NET platform using ASP.NET, C#, Razor, Microsoft SQL Server, JQuery, HTML, and CCS. Extra form validation was coded for this Web Application via Jquery to help users put in correct data. Built for functionality, user interface, and ease of use.</p>
+      <br />
       <p><strong>Client:</strong> The Brock Group<br />
       <strong>Website:</strong> (An Intranet employees only have access to.)<br />
       <strong>Date:</strong> 1/20/2013<br />
@@ -161,7 +231,6 @@
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
 		  <footer class="footer page2"> <!-- add page2 to footer class if you need gray bg -->
-			<!-- <p>&copy; 2018 <a href="http://www.stryk3r.com">Stryker Stinnette</a> | All Rights Reserved.</p> -->
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-md-2 col-md-offset-1">
@@ -172,50 +241,19 @@
 							
 						<h5>Featured Apps</h5>
 						<ul class="list-unstyled text-small footer_links">
-							<!-- 
-								
-								
-								<li><a href="/posts/2013-01-20-bid-log-web-application-brock/" class="text-muted">Bid Log Application (Brock)</a></li>
-								
-								<li><a href="/posts/2015-11-15-bid-log-web-application-gulf-coast-fabricators/" class="text-muted">Bid Log Web Application (Gulf Coast Fabricators & Exchanger)</a></li>
-								
-								<li><a href="/posts/2018-02-10-echo-group-employee-cross-reference/" class="text-muted">Contract and Cross Reference Employee Web Application</a></li>
-								
-								<li><a href="/posts/2017-08-25-equipment-transfer-web-application/" class="text-muted">Equipment Transfer Web Application</a></li>
-								
-								<li><a href="/posts/2017-08-25-purchase-order-web-application/" class="text-muted">Purchase Order Web Application</a></li>
-								
-								<li><a href="/posts/2018-01-05-weld-shop-production-tracking-web-application/" class="text-muted">Weld Shop Production, Quality Control, and Material Tracking Web Application</a></li>
-								
-							
-								
-								
-								<li><a href="/posts/2017-10-15-admiral-field-services-website/" class="text-muted">Admiral Field Services Website</a></li>
-								
-								<li><a href="/posts/2017-10-15-gulf_coast_exchanger-website/" class="text-muted">Gulf Coast Exchanger Website</a></li>
-								
-								<li><a href="/posts/2015-08-25-brock-intranet-website/" class="text-muted">The Brock Group Intranet Website</a></li>
-								
-								<li><a href="/posts/2017-02-10-echo-group-website/" class="text-muted">The Echo Group Website</a></li>
-								
-								<li><a href="/posts/2015-01-28-united-scaffolding-website/" class="text-muted">United Scaffolding Website</a></li>
-								
-								<li><a href="/posts/2016-02-10-weld-test-coupons-website/" class="text-muted">Weld Test Coupons Website</a></li>
-								
-							 -->
-							<li><a class="text-muted" href="./posts/2018-02-10-echo-group-employee-cross-reference/">ASP.Net MVC C# App</a></li>
-							<li><a class="text-muted" href="./posts/2018-01-05-weld-shop-production-tracking-web-application/">Production Tracking App</a></li>
-							<li><a class="text-muted" href="./posts/2017-08-25-equipment-transfer-web-application/">Equipment Tracking App</a></li>
-							<li><a class="text-muted" href="./posts/2015-11-15-bid-log-web-application-gulf-coast-fabricators/">Bid Log App</a></li>
+							<li><a class="text-muted" href="/portfolio/echo-group-employee-cross-reference/">ASP.Net MVC C# App</a></li>
+							<li><a class="text-muted" href="/portfolio/weld-shop-production-tracking-web-application/">Production Tracking App</a></li>
+							<li><a class="text-muted" href="/portfolio/equipment-transfer-web-application/">Equipment Tracking App</a></li>
+							<li><a class="text-muted" href="/portfolio/bid-log-web-application-gulf-coast-fabricators/">Bid Log App</a></li>
 							
 						</ul>
 					</div>
 					<div class="col-xs-6 col-md-2">
 						<h5>Featured Sites</h5>
 						<ul class="list-unstyled text-small">
-							<li><a class="text-muted" href="./posts/2017-02-10-echo-group-website/">Echo Group</a></li>
-							<li><a class="text-muted" href="./posts/2016-02-10-weld-test-coupons-website/">Weld Test Coupons</a></li>
-							<li><a class="text-muted" href="./posts/2017-10-15-admiral-field-services-website/">Admiral Field Services</a></li>
+							<li><a class="text-muted" href="/portfolio/echo-group-website/">Echo Group</a></li>
+							<li><a class="text-muted" href="/portfolio/weld-test-coupons-website/">Weld Test Coupons</a></li>
+							<li><a class="text-muted" href="/portfolio/admiral-field-services-website/">Admiral Field Services</a></li>
 						</ul>
 						<br /><br />
 					</div>
@@ -225,7 +263,7 @@
 							<li><a class="text-muted page-scroll" href="/#portfolio">Software Development</a></li>
 							<li><a class="text-muted page-scroll" href="/#dashboards">Data Analysis</a></li>
 							<li><a class="text-muted page-scroll" href="/#webdesign">Web Design</a></li>
-							<li><a class="text-muted page-scroll" href="/#services">CRM Consulting</a></li>
+							<li><a class="text-muted page-scroll" href="/services/crm">CRM Consulting</a></li>
 							<li><a class="text-muted page-scroll" href="/#dashboards">Excel Spreadsheets</a></li>
 						</ul>
 					</div>
@@ -241,19 +279,12 @@
 			</div>
 		</footer>
 		<div class="second_footer"></div>
-
 		<!--</div>-- /.co1ntainer -->
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<!-- jquery validate -->
 		<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
-		<!-- jquery easing -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-		<!-- other -->
 		<script src="/js/scrollreveal.min.js"></script>
 		<!-- custom js -->
 		<script src="/js/pagejs.js"></script>
