@@ -75,7 +75,7 @@ i.animated {
 	min-height: 100px;
 	height:100%;
 	/*background-color:#2C3E50;#011D45*/
-	background: linear-gradient(rgba(2,32,70,0.85), rgba(0,15,33,0.93)), url(../images/waves3.jpg) no-repeat center;
+	background: linear-gradient(rgba(2,32,70,0.85), rgba(0,15,33,0.93)), url(/images/waves3.jpg) no-repeat center;
 	/*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/waves3.jpg) no-repeat center;
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/inside_of_wave.jpg) no-repeat center;
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(http://science-all.com/images/wallpapers/wave-wallpaper/wave-wallpaper-1.jpg) no-repeat center;
