@@ -209,6 +209,12 @@ i.animated {
 	border-bottom:1px solid #A0A0A0;
 	/*color:#fff;*/
 }
+.page3 {
+	background:rgba(34, 61, 94,1);
+	/* border-top:1px solid #A0A0A0;
+	border-bottom:1px solid #A0A0A0; */
+	color:#fff;
+}
 #services.page {
 	padding-bottom:0px;
 }
@@ -228,6 +234,19 @@ i.animated {
 #services .col-md-4:hover {
 	transition: ease 0.5s;
 	transform: translateY(-20px);
+}
+#testimonials .img_name_title {
+  /* padding-top:2%; */
+}
+#testimonials p {
+  text-align:left;
+}
+#testimonials img {
+  text-align:left;
+  margin-left:auto;
+}
+.text_bold {
+  font-weight:600;
 }
 #contact p {
 	margin-bottom:40px;
@@ -594,7 +613,14 @@ a.undo_link {
 	color:#333;
 	text-decoration: none;
 }
-
+a.undo_link_white {
+  color:#fff;
+	text-decoration: none;
+}
+a.undo_link_white:hover {
+  color:#E3E3E3;
+	text-decoration: none;
+}
 footer li, footer h5 {
 	text-align:left;
 }
