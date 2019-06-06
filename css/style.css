@@ -503,12 +503,13 @@ a.navbar-brand {
 
 }
 
-
-
 .navbar-brand img {
 	margin:0px;padding:0px;height:40px;
 }
 
+.navbar-brand img.stryker_logo {
+  padding: 3px 0px 3px 10px;
+}
 
 
 .navbar-inverse .navbar-nav > li > a {
@@ -721,8 +722,11 @@ blockquote p::after {
 	}
 
 	.shrink .navbar-brand img {
-		margin:0px;padding:0px;height:34px;
-	}
+    /* margin:0px;
+    padding:0px; */
+    height:34px;
+  }
+  
 	/*** make nav show up slow on desktops **/
 	ul.navbar-nav.run_once {
 		animation: showup 5s;
