@@ -35,11 +35,8 @@ p {
 }
 .main-text {
 	position: absolute;
-	bottom: 12%;
-	left:3%;
-  /*padding: 40px 15px;
-	text-align: center;
-	width: 100%;*/
+  bottom: 12%;
+  left: 68px;
 	color:#fff;
 	animation:slidein 1.5s;
 }
@@ -109,7 +106,7 @@ i.animated {
 }
 .big_s img {
 	height:235px;
-	padding: 30px 30px 0 0;
+	padding: 30px 45px 0 2%;
 	opacity:0;
 	animation: show_s 4s ease 0s normal forwards 1,
 				shake_s 0.3s linear 6s 1,
@@ -402,8 +399,8 @@ a.navbar-brand {
 
 .position_down_arrow {
 	position:relative;
-	top:92%;
-	left:5.5%;
+  top:92%;
+  left: 106px;
 	/*text-align: center;*/
 }
 
@@ -722,8 +719,8 @@ blockquote p::after {
 	}
 
 	.shrink .navbar-brand img {
-    /* margin:0px;
-    padding:0px; */
+    margin:0px;
+    padding:0px;
     height:34px;
   }
   
