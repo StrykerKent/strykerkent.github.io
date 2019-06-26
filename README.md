@@ -6,7 +6,7 @@ This is a repo for my personal portfolio website ([Stryk3r.com](https://www.stry
 
 ~~Originally built in PHP, reworked for GitHub Pages.~~
 
-Built custom using Jekyll with no theme. (Discalaimer, I did use a CSS Framework... Bootstrap.)
+Built custom using Jekyll with no theme. (Disclaimer, I did use a CSS Framework... Bootstrap.)
 
 My portfolio site contains a write up of my abilities / services, things I have built, a testimonial from a former boss, and a little blurb about myself.
 
@@ -15,7 +15,7 @@ Things I have built:
 - [Websites](https://www.stryk3r.com/#websites)
 - [Data Visualizations](https://www.stryk3r.com/##dashboards)
 - [Graphics](https://www.stryk3r.com/#webdesign)
-- [Excel Spradsheets](https://www.stryk3r.com/##dashboards)
+- [Excel Spreadsheets](https://www.stryk3r.com/##dashboards)
 
 I am available for hire. 
 
