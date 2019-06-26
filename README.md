@@ -28,7 +28,7 @@ Check out:
 - [My Blog](https://blog.stryk3r.com)
 - [My GitHub Projects](https://github.com/StrykerKent?tab=repositories)
 - [My Gists](https://gist.github.com/StrykerKent)
-- [My Repl.it's](https://repl.it/@StrykerKent)
+- [My Repls](https://repl.it/@StrykerKent)
 - [My HackerRank Profile](https://www.hackerrank.com/strykerkent)
 - [My StackOverflow Profile](https://stackoverflow.com/users/9755234/stryker)
 - [My LinkedIn Page](https://www.linkedin.com/in/strykers) 
