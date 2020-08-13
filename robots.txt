@@ -1,1 +1,1 @@
-Sitemap: http://www.stryk3r.com/sitemap.xml
+Sitemap: https://www.stryker.dev/sitemap.xml
